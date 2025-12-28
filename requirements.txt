@@ -6,3 +6,5 @@ pymupdf
 langchain_text_splitter
 sentence-transformers
 chromadb
+langchain-groq
+ langchain-google-genai
