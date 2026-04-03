@@ -119,7 +119,7 @@ def rag_simple(query: str, retriever: RAGRetrieval, llm, top_k: int = 3):
     # 3. Define the "Hybrid" Prompt
     
     system_instruction = (
-        """You are a helpful assistant. 
+        """ 
         First, check the 'Context' below to see if it contains the answer. 
         If the context provides the answer, use it. 
         If the context is missing, empty, or irrelevant to the question, 
